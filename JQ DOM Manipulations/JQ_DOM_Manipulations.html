@@ -5,10 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQ DOM Manipulations</title>
+    <style>
+        .div1 {
+            height: 250px;
+            width: 250px;
+            border: 5px solid black;
+        }
+
+        .p1 {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-
+    <h1>JQ DOM Manipulations</h1>
+    <h2>Click on the button present below</h2>
+    <span id='span1'></span>
+    <div class='div1' style='background-color: aquamarine;'>
+        <p class='p1' id='idp1'>This is <i>box 1</i></p>
+    </div>
+    <button id='btn1'>Append</button>
+    <button id='btn2'>Prepend</button>
+    <button id='btn3'>Before</button>
+    <button id='btn4'>After</button>
+    <br>
+    <br>
+    <button id='btn5'>Remove</button>
+    <button id='btn6'>Empty</button>
 </body>
 <script src="../jQuery/code.jquery.com_jquery-3.7.0.js"></script>
 <script src="JQ_DOM_Manipulations.js"></script>
