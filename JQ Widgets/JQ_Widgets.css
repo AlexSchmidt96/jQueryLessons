@@ -1,0 +1,19 @@
+#div1 {
+    height: 300px;
+    width: 300px;
+    border: 3px black solid;
+    border-radius: 25px;
+    position: relative;
+    margin: auto;
+}
+
+#p1 {
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
