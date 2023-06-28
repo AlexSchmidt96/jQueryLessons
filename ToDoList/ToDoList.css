@@ -1,0 +1,66 @@
+body {
+    background-color: gray;
+    margin-top: 150px;
+}
+
+#container {
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgb(34, 157, 195);
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    padding: 4px 14px 4px 5px;
+}
+
+#button {
+    background-color: rgb(29, 158, 115);
+    border-radius: 15%;
+    text-align: center;
+    padding: 5px 15px;
+    margin-left: 5px;
+}
+
+#button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+ul {
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+ul li {
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
+}
+
+ul li:nth-child(even) {
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
