@@ -4,17 +4,17 @@ body {
 
 #slider {
     position: relative;
-    width: 398px;
+    width: 400px;
     padding: 10px 40px;
     border: 1px solid #CCC;
     border-radius: 15px;
-    background: #eee;
+    background: gray;
+    display: flex;
 }
 
 #slider img {
     width: 130px;
     height: 130px;
-    display: flex;
 }
 
 .arrow {
